@@ -1,0 +1,7 @@
+{
+	"name":"wajida-pubsub-function",
+	"zone":"us-central1",
+	"bucket_from":"gs://newphi/kitten.png",
+	"bucket_to":"gs://newq/",
+	"project":"pe-training"
+}
