@@ -8,7 +8,7 @@ from six.moves import input
 
 def hello_pubsub(event, context):
 	#decoding the base64 encoded data recieved from pub/sub published message
-    pubsub_message = base64.b64decode(event["data"]).decode('utf-8')
+    mypubsubmsg = base64.b64decode(event["data"]).decode('utf-8')
 	#parsing the string containing json into actual json
 	#configuring all the variables fromt the json data published by pub/sub
     msg_json = json.loads(mypubsubmsg) 
